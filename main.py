@@ -6,9 +6,9 @@ class Parent:
     def method2(self):
         print(self.name)
 class Child (Parent):
-    def method1(self):
+    def method(self):
         print(self._Parent__name)
 
 if __name__ == "__main__":
     obj = Child("naveen", 23)
-    obj.method1()
+    obj.method()
